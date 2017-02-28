@@ -1,0 +1,1 @@
+(define-fun f_125-10-125-47 (BOUND_VAR_LIST bufferIndex MC_741360) (TYPE_CONSTANT Boolean type) ((BUILTIN GEQ) MC_741360 bufferIndex))

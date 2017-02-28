@@ -1,0 +1,1 @@
+(define-fun f_290-29-290-44 (BOUND_VAR_LIST data.length) (TYPE_CONSTANT Boolean type) ((BUILTIN GT) data.length (CONST_RATIONAL 0)))

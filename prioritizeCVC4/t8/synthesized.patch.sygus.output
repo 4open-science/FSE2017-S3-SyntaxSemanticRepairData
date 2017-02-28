@@ -1,0 +1,1 @@
+(define-fun f_143-17-143-55 (BOUND_VAR_LIST x2 x1 parentNode EMPTY_PARENT) (TYPE_CONSTANT Boolean type) ((BUILTIN LT) parentNode x2))

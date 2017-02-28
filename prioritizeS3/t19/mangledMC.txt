@@ -1,0 +1,2 @@
+MC_741360 MathUtils.compareTo(entry,0,epsilon)
+

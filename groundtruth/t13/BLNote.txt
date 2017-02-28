@@ -1,0 +1,14 @@
+Failing:microsoft.exchange.webservices.data.EmailAddressTest#testEmailAddressToString
+Source:microsoft.exchange.webservices.data.EmailAddress
+Java:8
+Note:mvn test -Dtest=*EmailAddressTest -fn from root folder
+Fix commit: 299a8b695137ea10921f29ac0704ee2907737080
+Diff:
+diff --git a/src/main/java/microsoft/exchange/webservices/data/EmailAddress.java b/src/main/java/microsoft/exchange/webservices/data/EmailAddress.java
+index 305860b..3f1ca23 100644
+--- a/src/main/java/microsoft/exchange/webservices/data/EmailAddress.java
++++ b/src/main/java/microsoft/exchange/webservices/data/EmailAddress.java
+@@ -356 +356 @@
+-    if (null != this.getName() && this.getName().isEmpty()) {
++    if (null != this.getName() && !this.getName().isEmpty()) {
+

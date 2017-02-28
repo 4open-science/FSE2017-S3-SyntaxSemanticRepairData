@@ -1,0 +1,1 @@
+(define-fun f_122-16-122-32 (BOUND_VAR_LIST this.y this.x y x) (TYPE_CONSTANT Boolean type) ((BUILTIN EQUAL) y this.y))

@@ -1,0 +1,2 @@
+MC_741360 Character.isDigit(next)
+

@@ -1,0 +1,2 @@
+(define-fun f_356-35-356-59 ((MC_741360 Bool)) Bool
+    (not MC_741360))

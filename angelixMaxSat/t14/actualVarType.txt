@@ -1,0 +1,3 @@
+31-12-31-30-offset,int
+31-12-31-30-angelic,bool
+31-12-31-30-newLength,int

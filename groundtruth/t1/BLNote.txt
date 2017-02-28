@@ -1,0 +1,15 @@
+Failing:testLang315(org.apache.commons.lang.time.StopWatchTest)
+Source:org.apache.commons.lang.time.StopWatch
+Java:1.8
+Note: mvn test -Dtest=*org.apache.commons.lang.time.StopWatchTest -fn from root folder
+Fix commit: b16235ad108c4fcdb7117493394d26d2f0faeace
+Diff:
+diff --git a/src/java/org/apache/commons/lang/time/StopWatch.java b/src/java/org/apache/commons/lang/time/StopWatch.java
+index 607e9b6..0f0786a 100644
+--- a/src/java/org/apache/commons/lang/time/StopWatch.java
++++ b/src/java/org/apache/commons/lang/time/StopWatch.java
+@@ -118 +118,3 @@
+-        stopTime = System.currentTimeMillis();
++        if(this.runningState == STATE_RUNNING) {
++            stopTime = System.currentTimeMillis();
++        }

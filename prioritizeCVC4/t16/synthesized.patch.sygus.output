@@ -1,0 +1,1 @@
+(define-fun f_27-13-27-30 (BOUND_VAR_LIST threshold input) (TYPE_CONSTANT Boolean type) ((BUILTIN LT) input threshold))

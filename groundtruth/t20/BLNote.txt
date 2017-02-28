@@ -1,0 +1,7 @@
+Failing:net.objecthunter.exp4j.tokens.TokenizerTest#testComplexTokenization2;net.objecthunter.exp4j.tokens.TokenizerTest#testComplexTokenization3
+Source:net.objecthunter.exp4j.tokens.Tokenizer
+Java:1.7,8
+BugType:if-cond,infinite loop
+diff:
+-	if (Character.isDigit(next)) {
++	if (Character.isDigit(next) || next == '.') {

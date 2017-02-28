@@ -1,0 +1,14 @@
+Failing:org.apache.commons.math4.util.ResizableDoubleArrayTest#testConstructors
+Source:org.apache.commons.math4.util.ResizableDoubleArray
+Java:8
+Note: mvn test -Dtest=*ResizableDoubleArrayTest -fn from root folder
+Fix commit: 09fe956a62e19c160d0093f8fecf254c2bb6f0cb
+Diff:
+diff --git a/src/main/java/org/apache/commons/math4/util/ResizableDoubleArray.java b/src/main/java/org/apache/commons/math4/util/ResizableDoubleArray.java
+index 6377141..7d9547c 100644
+--- a/src/main/java/org/apache/commons/math4/util/ResizableDoubleArray.java
++++ b/src/main/java/org/apache/commons/math4/util/ResizableDoubleArray.java
+@@ -290 +290 @@
+-        if (data != null && data.length > 1) {
++        if (data != null && data.length > 0) {
+

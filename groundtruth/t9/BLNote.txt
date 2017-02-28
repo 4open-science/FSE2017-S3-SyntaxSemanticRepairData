@@ -1,0 +1,13 @@
+Failing:com.joestelmach.natty.DateTest#testFormal
+Source:com.joestelmach.natty.WalkerState
+Java:1.7(openjdk), 8
+Note:mvn test -fn |grep -v Download* from root folder
+Fix commit: 63c625a3fa2f72c69309a2052f178f91c8af5dc0
+Diff:
+diff --git a/src/main/java/com/joestelmach/natty/WalkerState.java b/src/main/java/com/joestelmach/natty/WalkerState.java
+index e39a265..102ae39 100644
+--- a/src/main/java/com/joestelmach/natty/WalkerState.java
++++ b/src/main/java/com/joestelmach/natty/WalkerState.java
+@@ -146 +146 @@
+-    assert(yearInt > 0 && yearInt < 9999);
++    assert(yearInt >= 0 && yearInt < 9999);

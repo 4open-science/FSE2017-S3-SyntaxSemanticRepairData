@@ -1,0 +1,1 @@
+(assert (> pair.length 0))

@@ -1,0 +1,4 @@
+97-10-97-48-enabled,bool
+97-10-97-48-angelic,bool
+97-10-97-48-this.acknowledgeId,int
+97-10-97-48-NOACK,int

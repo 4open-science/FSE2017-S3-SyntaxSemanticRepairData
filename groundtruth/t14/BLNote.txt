@@ -1,0 +1,14 @@
+Failing:com.orientechnologies.orient.core.record.impl.BytesContainerTest#testReallocSimple
+Source:com.orientechnologies.orient.core.serialization.serializer.record.binary.BytesContainer
+Java:7(openjdk),8
+Note:mvn test -Dtest=*BytesContainerTest -fn from root folder
+Fix commit:b33cb8a22e8d65cc48abde31577ddebdaa66f656
+Diff:
+diff --git a/core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/BytesContainer.java b/core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/BytesContainer.java
+index 94e356e..9422391 100644
+--- a/core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/BytesContainer.java
++++ b/core/src/main/java/com/orientechnologies/orient/core/serialization/serializer/record/binary/BytesContainer.java
+@@ -31 +31 @@
+-    while (newLength > offset)
++    while (newLength < offset)
+

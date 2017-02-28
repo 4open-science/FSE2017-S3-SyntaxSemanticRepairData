@@ -1,0 +1,2 @@
+(define-fun f_31-12-31-30 ((newLength Int) (offset Int)) Bool
+    (> offset newLength))

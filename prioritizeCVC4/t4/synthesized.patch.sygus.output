@@ -1,0 +1,1 @@
+(define-fun f_141-11-141-28 (BOUND_VAR_LIST x.end size i elem.end) (TYPE_CONSTANT Boolean type) ((BUILTIN GT) x.end elem.end))

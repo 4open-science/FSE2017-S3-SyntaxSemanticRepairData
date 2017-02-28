@@ -1,0 +1,1 @@
+(assert (and NCK_NEQ_741360 NCK_NEQ_505948))

@@ -1,0 +1,23 @@
+
+(set-logic  LIA)
+(
+synth-fun f_68-13-68-36 ( (MC_741360 Bool)) Bool
+	((Start Bool (
+(not Start )
+(= IntExpr IntExpr)
+MC_741360 
+
+
+))
+(IntExpr Int (
+
+0 1
+))
+
+	)
+)
+(declare-var MC_741360_68-13-68-36 Bool)
+
+(constraint   (and (=> (= MC_741360_68-13-68-36 false) (= (f_68-13-68-36 MC_741360_68-13-68-36 ) true))  (and (=> (= MC_741360_68-13-68-36 true) (= (f_68-13-68-36 MC_741360_68-13-68-36 ) true)) (=> (= MC_741360_68-13-68-36 true) (= (f_68-13-68-36 MC_741360_68-13-68-36 ) true))) ) )
+
+(check-synth)

@@ -1,0 +1,1 @@
+(define-fun f_255-8-255-24 (BOUND_VAR_LIST j MC_741360) (TYPE_CONSTANT Boolean type) ((BUILTIN EQUAL) j j))

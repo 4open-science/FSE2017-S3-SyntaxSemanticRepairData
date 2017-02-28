@@ -1,0 +1,1 @@
+(define-fun f_29-21-29-36 (BOUND_VAR_LIST pair.length) (TYPE_CONSTANT Boolean type) ((BUILTIN GT) pair.length (CONST_RATIONAL 0)))

@@ -1,0 +1,13 @@
+Failing:de.qabel.core.drop.AcknowledgeIdGenerationTest#testSwitchAck
+Source:de.qabel.core.drop.DropMessage
+Java:8
+Note: ./gradlew test --tests "de.qabel.core.drop.AcknowledgeIdGenerationTest" from root folder
+Fix commit: 299c7a688f2b6e4f31f9dd58734169d6c29f03c1
+Diff:
+diff --git a/src/main/java/de/qabel/core/drop/DropMessage.java b/src/main/java/de/qabel/core/drop/DropMessage.java
+index 336f1f2..f9ada6e 100644
+--- a/src/main/java/de/qabel/core/drop/DropMessage.java
++++ b/src/main/java/de/qabel/core/drop/DropMessage.java
+@@ -97 +97 @@
+-    	if (enabled && this.acknowledgeId != NOACK) {
++    	if (enabled && this.acknowledgeId == NOACK) {

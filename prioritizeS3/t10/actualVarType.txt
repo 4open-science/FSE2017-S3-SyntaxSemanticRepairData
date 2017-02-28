@@ -1,0 +1,4 @@
+35-7-35-46-this.num,int
+35-7-35-46-this.start,int
+35-7-35-46-angelic,bool
+35-7-35-46-this.total,int

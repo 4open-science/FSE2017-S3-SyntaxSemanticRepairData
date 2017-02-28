@@ -1,0 +1,7 @@
+143-17-143-55-to,int
+143-17-143-55-x2,double
+143-17-143-55-from,int
+143-17-143-55-x1,double
+143-17-143-55-angelic,bool
+143-17-143-55-parentNode,int
+143-17-143-55-EMPTY_PARENT,int

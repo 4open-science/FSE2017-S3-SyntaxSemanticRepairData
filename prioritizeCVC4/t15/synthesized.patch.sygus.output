@@ -1,0 +1,1 @@
+(define-fun f_97-10-97-48 (BOUND_VAR_LIST NOACK this.acknowledgeId enabled) (TYPE_CONSTANT Boolean type) enabled)

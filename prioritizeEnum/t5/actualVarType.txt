@@ -1,0 +1,5 @@
+97-11-98-60-charno,int
+97-11-98-60-MC_505948,int
+97-11-98-60-angelic,bool
+97-11-98-60-warning,bool
+97-11-98-60-MC_741360,bool

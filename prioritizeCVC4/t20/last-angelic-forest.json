@@ -1,0 +1,4 @@
+{
+"1":[[{"context":[{"name":"hasComplex","value":true},{"name":"hasOp","value":true},{"name":"hasI","value":false},{"name":"pos","value":9},{"name":"i","value":4},{"name":"c","value":49},{"name":"next","value":46},{"name":"MC_741360","value":false}],"value":{"name":"angelic","value":true},"expression":"68-13-68-36","instId":1},{"context":[{"name":"hasComplex","value":true},{"name":"hasI","value":false},{"name":"i","value":4},{"name":"pos","value":8},{"name":"next","value":55},{"name":"c","value":49},{"name":"MC_741360","value":true},{"name":"hasOp","value":true}],"value":{"name":"angelic","value":true},"expression":"68-13-68-36","instId":0},{"context":[{"name":"hasI","value":false},{"name":"c","value":49},{"name":"hasOp","value":true},{"name":"MC_741360","value":true},{"name":"next","value":56},{"name":"hasComplex","value":true},{"name":"pos","value":10},{"name":"i","value":4}],"value":{"name":"angelic","value":true},"expression":"68-13-68-36","instId":2}]]
+
+}

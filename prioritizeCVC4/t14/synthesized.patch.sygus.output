@@ -1,0 +1,1 @@
+(define-fun f_31-12-31-30 (BOUND_VAR_LIST newLength offset) (TYPE_CONSTANT Boolean type) ((BUILTIN GT) newLength (CONST_RATIONAL 0)))

@@ -1,0 +1,15 @@
+{
+  "encodingConfig":{
+    "componentsMultipleOccurrences":true,
+    "phantomComponents":true,
+    "repairBooleanConst":false,
+    "repairIntegerConst":false,
+    "level":"linear"
+  },
+  "simplification":false,
+  "reuseStructure":true,
+  "spaceReduction":true,
+  "componentLevel":"basic-inequalities",
+  "solverBound":4,
+  "solverTimeout":120000
+}

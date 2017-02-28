@@ -1,0 +1,1 @@
+(assert (>= (+ this.start this.num) (- this.total 1)))

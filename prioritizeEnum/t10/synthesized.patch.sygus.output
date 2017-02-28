@@ -1,0 +1,2 @@
+(define-fun f_35-7-35-46 ((this.total Int) (this.num Int) (this.start Int)) Bool
+    (>= this.num this.total))

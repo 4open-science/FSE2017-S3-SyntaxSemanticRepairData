@@ -1,0 +1,5 @@
+122-16-122-32-y,double
+122-16-122-32-x,double
+122-16-122-32-this.y,float
+122-16-122-32-angelic,bool
+122-16-122-32-this.x,float

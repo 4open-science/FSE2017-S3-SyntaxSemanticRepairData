@@ -1,0 +1,1 @@
+(assert (and (> yearInt 0) (< yearInt 9999)))

@@ -1,0 +1,13 @@
+Failing:com.github.nkzawa.parseqs.ParseQSTest#decode
+Source:com.github.nkzawa.parseqs.ParseQS
+Java:8
+Note:  mvn test -Dtest=*ParseQSTest -fn; if npm not installed, then do sudo apt-get install npm
+Fix commit: d79d63c747ee8eb86470d78620f3760bc55c990a
+Diff:
+diff --git a/src/main/java/com/github/nkzawa/parseqs/ParseQS.java b/src/main/java/com/github/nkzawa/parseqs/ParseQS.java
+index eec7cf3..33f2320 100644
+--- a/src/main/java/com/github/nkzawa/parseqs/ParseQS.java
++++ b/src/main/java/com/github/nkzawa/parseqs/ParseQS.java
+@@ -29 +29 @@
+-                    pair.length > 0 ? Global.decodeURIComponent(pair[1]) : "");
++                    pair.length > 1 ? Global.decodeURIComponent(pair[1]) : "");

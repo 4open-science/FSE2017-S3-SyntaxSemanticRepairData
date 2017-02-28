@@ -1,0 +1,13 @@
+Failing:org.archive.crawler.datamodel.CrawlURITest#testNullPathFromSeed,org.archive.crawler.datamodel.CrawlURITest#testOrdering
+Source:org.archive.modules.CrawlURI
+Java:7(oracle), 8
+Note:mvn test -fn -Dtest=*CrawlURITest from root folder
+Fix commit: 6868a9ee5c7acd3cd5901774e05313b8c2ef7f21
+Diff:
+diff --git a/modules/src/main/java/org/archive/modules/CrawlURI.java b/modules/src/main/java/org/archive/modules/CrawlURI.java
+index d5eefb7..dc66606 100644
+--- a/modules/src/main/java/org/archive/modules/CrawlURI.java
++++ b/modules/src/main/java/org/archive/modules/CrawlURI.java
+@@ -1981 +1981 @@
+-        } else if (a != null && b != null) {
++        } else if (a != null && b == null) {

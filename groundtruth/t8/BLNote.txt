@@ -1,0 +1,13 @@
+Failing:com.graphhopper.routing.DijkstraOneToManyTest#testIssue239_and362
+Source:com.graphhopper.routing.DijkstraOneToMany
+Java:1.8
+Note:mvn test -Dtest=com.graphhopper.routing.DijkstraOneToManyTest from root folder
+Fix commit: 7bd6ad5fb195ad7263e485f17d288a85dc418d3b
+Diff:
+diff --git a/core/src/main/java/com/graphhopper/routing/DijkstraOneToMany.java b/core/src/main/java/com/graphhopper/routing/DijkstraOneToMany.java
+index d566173..0efde32 100644
+--- a/core/src/main/java/com/graphhopper/routing/DijkstraOneToMany.java
++++ b/core/src/main/java/com/graphhopper/routing/DijkstraOneToMany.java
+@@ -141 +141 @@
+-            if (parentNode != EMPTY_PARENT && weights[to] < weights[currNode])
++            if (parentNode != EMPTY_PARENT && weights[to] <= weights[currNode])

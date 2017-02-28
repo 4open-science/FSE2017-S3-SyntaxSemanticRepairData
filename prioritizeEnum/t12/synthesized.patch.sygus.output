@@ -1,0 +1,2 @@
+(define-fun f_29-21-29-36 ((pair.length Int)) Bool
+    (> pair.length 0))

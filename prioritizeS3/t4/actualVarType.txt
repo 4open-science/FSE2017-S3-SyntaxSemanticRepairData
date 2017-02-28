@@ -1,0 +1,5 @@
+141-11-141-28-x.end,char
+141-11-141-28-i,int
+141-11-141-28-elem.end,char
+141-11-141-28-angelic,bool
+141-11-141-28-size,int

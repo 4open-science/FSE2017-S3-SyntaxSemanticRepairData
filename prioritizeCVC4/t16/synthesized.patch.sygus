@@ -1,0 +1,24 @@
+
+(set-logic  LIA)
+(
+synth-fun f_27-13-27-30 ( (threshold Int) (input Int)) Bool
+	((Start Bool (
+(< IntExpr IntExpr)
+(<= IntExpr IntExpr)
+
+
+
+))
+(IntExpr Int (
+threshold input 
+0 1
+))
+
+	)
+)
+(declare-var threshold_27-13-27-30 Int)
+(declare-var input_27-13-27-30 Int)
+
+(constraint   (and (=>  (and (= threshold_27-13-27-30 10) (= input_27-13-27-30 0))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true))  (and (=>  (and (= input_27-13-27-30 0) (= threshold_27-13-27-30 10))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true))  (and (=>  (and (= input_27-13-27-30 0) (= threshold_27-13-27-30 10))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true))  (and (=>  (and (= threshold_27-13-27-30 10) (= input_27-13-27-30 0))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true))  (and (=>  (and (= threshold_27-13-27-30 10) (= input_27-13-27-30 0))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true)) (=>  (and (= input_27-13-27-30 0) (= threshold_27-13-27-30 10))  (= (f_27-13-27-30 threshold_27-13-27-30 input_27-13-27-30 ) true))) ) ) ) ) )
+
+(check-synth)

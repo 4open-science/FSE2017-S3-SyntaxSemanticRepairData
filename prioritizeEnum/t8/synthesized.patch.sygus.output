@@ -1,0 +1,2 @@
+(define-fun f_143-17-143-55 ((x2 Int) (x1 Int) (parentNode Int) (EMPTY_PARENT Int)) Bool
+    (< parentNode x2))

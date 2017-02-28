@@ -1,0 +1,2 @@
+(define-fun f_97-10-97-48 ((NOACK Int) (this.acknowledgeId Int) (enabled Bool)) Bool
+    enabled)

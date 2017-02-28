@@ -1,0 +1,2 @@
+(define-fun f_255-8-255-24 ((j Int) (MC_741360 Int)) Bool
+    (= j j))

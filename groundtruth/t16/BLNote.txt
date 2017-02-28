@@ -1,0 +1,14 @@
+Failing:org.molgenis.data.support.AggregateAnonymizerImplTest#anonymize
+Source: org.molgenis.data.support.AggregateAnonymizerImpl
+Java:8
+Note:mvn test -fn from root folder
+Other fail test:resolveSelfReferences(org.molgenis.util.DependencyResolverTest)
+Fix commit: 9dadb28f9fba4ce00eccc0b1be8196fc9f229795
+Diff:
+diff --git a/molgenis-data/src/main/java/org/molgenis/data/support/AggregateAnonymizerImpl.java b/molgenis-data/src/main/java/org/molgenis/data/support/AggregateAnonymizerImpl.java
+index e74a706..473e87f 100644
+--- a/molgenis-data/src/main/java/org/molgenis/data/support/AggregateAnonymizerImpl.java
++++ b/molgenis-data/src/main/java/org/molgenis/data/support/AggregateAnonymizerImpl.java
+@@ -27 +27 @@
+-					return input < threshold ? AGGREGATE_ANONYMIZATION_VALUE : input;
++					return input <= threshold ? AGGREGATE_ANONYMIZATION_VALUE : input;

@@ -1,0 +1,13 @@
+Failing:org.wikimedia.analytics.kraken.jgraph.FunnelTest#testFallOutAnalysis
+Source: org.wikimedia.analytics.kraken.jgraph.Funnel
+Java: 8
+Note: mvn test -Dtest=*FunnelTest -fn -DfailIfNoTests=false | grep -v Download*
+Fix commit: 8b0fea63ed6219fc5e8a169037e66b671df2bf1c
+Diff:
+diff --git a/src/main/java/org/wikimedia/analytics/kraken/jgraph/Funnel.java b/src/main/java/org/wikimedia/analytics/kraken/jgraph/Funnel.java
+index ef8cc06..ab440a1 100644
+--- a/src/main/java/org/wikimedia/analytics/kraken/jgraph/Funnel.java
++++ b/src/main/java/org/wikimedia/analytics/kraken/jgraph/Funnel.java
+@@ -255 +255 @@
+-			if (j == path.size()) {
++			if (j == path.size()-1) {

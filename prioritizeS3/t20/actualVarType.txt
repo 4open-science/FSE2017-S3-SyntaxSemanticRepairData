@@ -1,0 +1,9 @@
+68-13-68-36-pos,int
+68-13-68-36-hasComplex,bool
+68-13-68-36-hasOp,bool
+68-13-68-36-hasI,bool
+68-13-68-36-MC_741360,bool
+68-13-68-36-i,int
+68-13-68-36-c,char
+68-13-68-36-next,char
+68-13-68-36-angelic,bool

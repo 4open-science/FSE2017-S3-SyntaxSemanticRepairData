@@ -1,0 +1,5 @@
+290-29-290-44-initialCapacity,int
+290-29-290-44-data.length,int
+290-29-290-44-angelic,bool
+290-29-290-44-expansionFactor,double
+290-29-290-44-contractionCriterion,double

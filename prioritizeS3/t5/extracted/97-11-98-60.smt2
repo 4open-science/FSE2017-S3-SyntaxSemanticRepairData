@@ -1,0 +1,1 @@
+(assert (and (and MC_741360 (<= 0 charno)) (< charno MC_505948)))

@@ -1,0 +1,3 @@
+143-17-143-55
+((! (parentNode == EMPTY_PARENT)) && (x1 < x2))
+(parentNode < x2)

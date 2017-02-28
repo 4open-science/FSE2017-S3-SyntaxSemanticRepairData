@@ -1,0 +1,2 @@
+(define-fun f_27-13-27-30 ((threshold Int) (input Int)) Bool
+    (< input threshold))
